@@ -1,0 +1,16 @@
+{
+
+  "torch_burnout.configuration.title": "Simple Torch Burnout Configs",
+  "torch_burnout.configuration.section.torch_burnout.common.toml": "Simple Torch Burnout Configs",
+  "torch_burnout.configuration.section.torch_burnout.common.toml.title": "Simple Torch Burnout Configs",
+  "torch_burnout.configuration.items": "Item List",
+
+  "torch_burnout.configuration.placeLit": "Torches place lit",
+  "torch_burnout.configuration.canRelight": "Torch re-lighting",
+  "torch_burnout.configuration.burnoutChance": "Torch burn-out chance",
+  "torch_burnout.configuration.burnedTorches": "Burnt torches",
+
+
+  "block.torch_burnout.lit_torch": "Torch",
+  "block.torch_burnout.lit_soul_torch": "Soul Torch"
+}

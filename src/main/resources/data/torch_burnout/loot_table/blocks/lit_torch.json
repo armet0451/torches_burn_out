@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "torch_burnout:lit_torch",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "torch_burnout:lit_torch",
+              "properties": {
+                "lit": "true"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "stick",
+          "functions": [],
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "torch_burnout:lit_torch",
+              "properties": {
+                "lit": "false"
+              }
+            },
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.00
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "minecraft:blocks/torch"
+}
