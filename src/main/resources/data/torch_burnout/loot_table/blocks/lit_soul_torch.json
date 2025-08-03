@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "torch_burnout:lit_torch",
+          "name": "torch_burnout:lit_soul_torch",
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
